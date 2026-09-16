@@ -130,3 +130,10 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 5dvh;
+}
