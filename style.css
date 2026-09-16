@@ -72,3 +72,25 @@ ul {
     flex-direction: column;
     width: min-content;
 }
+
+/* third section */
+
+.quote {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.signature {
+    text-align: end;
+    font-size: 30px;
+}
