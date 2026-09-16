@@ -1,6 +1,7 @@
 /* CSS page */
 body{
     margin: 0;
+    background-color: white;
 }
 
 /*top part */
@@ -56,6 +57,7 @@ ul {
     flex-direction: row;
     align-content: center;
     text-align: center;
+
     justify-content: space-around;
 }
 
@@ -93,4 +95,38 @@ ul {
 .signature {
     text-align: end;
     font-size: 30px;
+}
+
+/* Fourth section */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80dvh;
+    padding-top: 25px;
+    padding-bottom: 25px;;
+    background-color: #3882F6;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding: 10dvh;
+}
+
+.text-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-two {
+    text-align: center;
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }

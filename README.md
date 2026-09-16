@@ -16,3 +16,8 @@ flexbox assignment
 # 2.add background color
 # 3.add quote and quotee
 # 4.git add commit and push 
+06/16 9am plan
+# 1.make 4th section call to action
+# 2.make blue box, center and style it
+# 3.add title text, paragraph and button
+# 4. git add commit and push
