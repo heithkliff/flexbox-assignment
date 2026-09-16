@@ -6,3 +6,10 @@ flexbox assignment
 # text and button and image
 # 3.setup color for whole section
 # 4. git add/commit/push
+09/16 8am plan
+# 1.make the second section
+# 2.add title Some random information
+# 3.create 4 rounded edge images along with a subtext for each
+# 4.put the quote at the end bottom right
+# 5.add the grey background
+# 6.git add commit push
