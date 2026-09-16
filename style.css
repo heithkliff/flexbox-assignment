@@ -1,7 +1,16 @@
 /* CSS page */
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./font/Roboto/static/Roboto-Black.ttf) format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     margin: 0;
     background-color: white;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 /*top part */
@@ -14,11 +23,49 @@ body{
     background-color: #1F2937;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.title-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    align-self: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
 ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .awesome {
@@ -27,17 +74,22 @@ ul {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
+    padding-top: 10dvh;
+    padding-bottom: 10dvh;
+    gap: 10px;
 }
 
 .leftpart {
     display: flex;
     flex-direction: column;
-    
+    margin-right: auto;
+    gap: 10px;
 }
 
 .parrot {
-    height: 200px;
-    width: 400px;
+    display: flex;
+    height: 250px;
+    width: 700px;
 }
 
 /* second section */
@@ -45,11 +97,15 @@ ul {
 .random {
     padding-left: 10vw;
     padding-right: 10vw;
+    padding-top: 5dvh;
+    padding-bottom: 5dvh;
 }
 
 .section-2-title {
     text-align: center;
     font-size: 40px;
+    padding-bottom: 30px;
+    font-weight: bold;
 }
 
 .all-pictures {
@@ -57,13 +113,15 @@ ul {
     flex-direction: row;
     align-content: center;
     text-align: center;
-
     justify-content: space-around;
+    color: #1F2937
 }
 
 .four-pictures {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
+    outline: 3px solid #3882F6;
 }
 
 .pic-one,
@@ -83,6 +141,8 @@ ul {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    padding-top: 5dvh;
+    padding-bottom: 5dvh;
 }
 
 .testimonial {
@@ -94,7 +154,8 @@ ul {
 
 .signature {
     text-align: end;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 900;
 }
 
 /* Fourth section */
@@ -106,34 +167,45 @@ ul {
     padding-top: 25px;
     padding-bottom: 25px;;
     background-color: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
 }
 
 .call-to-action {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    padding-left: 10vw;
-    padding-right: 10vw;
     padding: 10dvh;
+}
+
+.title-call-to {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .text-left {
     display: flex;
     flex-direction: column;
+    color: #E5E7EB;
 }
 
 .signup-two {
+    font-size: 18px;
+    font-weight: 500;
     text-align: center;
     color: white;
     background-color: #3882F6;
     border-color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: 3px solid white;
 }
 
 .footer {
     text-align: center;
-    color: white;
+    color: #E5E7EB;
     background-color: #1F2937;
-    padding: 5dvh;
+    padding: 3dvh;
 }
